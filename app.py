@@ -5,7 +5,7 @@ from PIL import Image
 
 # Load model
 
-model = load_model("digits_model.h5", compile=False)
+model = load_model("digits_model.keras", compile=False)
 
 st.title("✍️ Handwritten Digit Recognition")
 
